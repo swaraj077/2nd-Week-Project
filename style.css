@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    background-color: black;
+    color: #FCAF02;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+nav {
+    position:sticky;
+    top: 0px;
+    padding: 24px 58px;
+    background-color: #FCAF02;
+    color: black;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    position: absolute;
+    right: 10px;
+}
+
+.click {
+    margin-right: 78px;
+}
+
+#logo {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.rotate-image{
+    width: 40%;
+    float: inline-end;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    margin-top: -50px;
+    padding-top: -50px;
+    
+}
+
+header {
+    margin: 87px 50px 100px 58px;
+    color: white;
+}
+
+p{
+    text-align: left;
+    max-width: 100%;
+    font-size: 28px;
+    font-weight: lighter;
+    margin-bottom: -50px;
+    padding: 0px 10px 10px 20px;
+    display: inline-block;
+}
+.heading1{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 20px;
+    display: block;
+}
+.heading2{
+    color:#FCAF02;
+    margin-left: 63px;
+    margin-top: 10px;
+}
+
+.button1, .button2{
+    border: none;
+    border-radius: 33px;
+    background-color:#FCAF02;
+    color: black;
+    font-weight: bold;
+    width: 323px;
+    height: 66px;
+    font-size: 32px;
+    margin: 10px;
+    padding: 10px;
+    
+}
+form{
+    margin: 15px 15px 15px 10px;
+    padding: 15px 15px 15px 10px;
+}
+.form-item1, .form-item2{
+    background-color: black;
+    color: #FCAF02;
+    font-size: 34px;
+    border: 1px solid #FCAF02;
+    border: 1px solid #FCAF02;
+    border-radius: 100px;
+    padding-left: 40px;
+    text-align: left;
+    height: 82px;
+}
+.form-item1{
+    display: block;
+    width: 92%;
+    margin: 0 0 0 63px;
+    
+}
+.form-item2{
+    display: inline;
+    width: 43%;
+    margin: 0 0 0 63px; 
+}
+
+::placeholder {
+    color: #FCAF02;
+    font-size: 28px;
+}
+
+#name {
+    margin-top: 64px;
+}
+
+#email {
+    margin-top: 50px;
+}
+
+#tel {
+    margin-top: 50px;
+}
+
+.button2{
+    margin-top: 80px;
+    margin-left: 40%;
+}
+table {
+    border: 1px solid #FCAF02;
+    border-collapse: collapse;
+    margin-top: 98px;
+    margin-left: 80px;
+    width: 92%;
+}
+
+th, td{
+    border: 1px solid #FCAF02;
+    border-collapse: collapse;
+    padding: 20px;
+    font-weight: lighter;
+}
+
+th, tbody{
+    color: #FCAF02;
+}
+.col1{
+    text-align: center;
+}
+
+.col2{
+    text-align: left; 
+}
+
+td{
+    border-bottom: 1px solid black;
+}
+
+tfoot{
+    color: black;
+    background-color: #FCAF02;
+    font-weight:bold
+}
+#footer{
+    border-right: 1px solid black;
+    
+}
