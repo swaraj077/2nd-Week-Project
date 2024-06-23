@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.google.com">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: "Montserrat", sans-serif;
+            background-color: black;
+            color: white;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+            background-color:#FCAF02;
+        }
+        
+        li {
+            float: right;
+        }
+        li a{
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .logo{
+            display: block;
+            color: black;
+            font-weight: bold;
+            font-size: large;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .rotate-image{
+            width: 40%;
+            float: right;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            margin-top: -50px;
+            padding-top: -50px;
+        }
+        p{
+            text-align: left;
+            max-width: 100%;
+            font-size: 22px;
+            font-weight: lighter;
+            margin-bottom: -50px;
+            padding: 0px 10px 10px 20px;
+            display: inline-block;
+        }
+        .heading1{
+            margin-top: 20px;
+            margin-bottom: 0px;
+            padding: 20px;
+            display: block;
+        }
+        .heading2{
+            color:#FCAF02;
+        }
+        .button1, .button2{
+            border: none;
+            align-items: center;
+            border-radius: 20px;
+            background-color:#FCAF02;
+            color: black;
+            font-weight: bold;
+            width: 15%;
+            height: 40px;
+            font-size: 18px;
+            margin: 20px;
+            padding: 10px;
+        }
+        form{
+            margin: 15px 15px 15px 10px;
+            padding: 15px 15px 15px 10px;
+        }
+        .form-item1, .form-item2{
+            background-color: black;
+            color: #FCAF02;
+            font-size: 18px;
+            border: 1px solid #FCAF02;
+            border-radius: 20px;
+            padding-left: 20px;
+            text-align: left;
+            height: 40px;
+        }
+        .form-item1{
+            display: block;
+            width: 96%;
+            margin: 20px 20px 10px 0px;
+        }
+        .form-item2{
+            display: inline;
+            width: 46%;
+            margin: 10px 22px 20px 0px;
+        }
+        .button2{
+            margin-left: 480px;
+        }
+        table, th, td{
+            border: 1px solid #FCAF02;
+            border-collapse: collapse;
+            padding: 15px;
+            margin: 20px;
+            text-align: left;
+            font-weight: lighter;
+        }
+        table{
+            width: 96%;
+        }
+        th, tbody{
+            color: #FCAF02;
+        }
+        .col1{
+            text-align: center;
+        }
+        td{
+            border-bottom: 1px solid black;
+        }
+        tfoot{
+            color: black;
+            background-color: #FCAF02;
+        }
+        #footer{
+            border-right: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <!--- Nav bar-->
+    <nav class="navbar">
+        <ul class="nav_items">
+            <li><a href="">Login</a></li>
+            <li><a href="">ContactUS</a></li>
+            <li><a href="">AboutUs</a></li>
+            <li><a href="">Home</a></li>
+            <li style="float: left;" class="logo">Startup</li>
+        </ul>
+    </nav>
+
+    <h1 class="heading1">StartUp Landing Page</h1>
+    <p class="description"><img src="https://s3-alpha-sig.figma.com/img/1bfe/0656/5ce73b370dc5f157ffb73c5df166e15b?Expires=1719792000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jYaOvBqMGYzlXvm0HgNl33xPna2ZUKTF19yV0AO1hnNH3JJfmeRW~psxLOU1Ew7g8AtezLDy3bNp1i8iFtfRX1viwhoxCcBhmUtAVbFkItIyhxg9XnXjj9BxNyM6MsF7QEmnzPi8HBsqt6qbiZbSXnLzmWOa6IpQYM00l5V2P2VnyANh~vxwugc2MBJ6Yun10rWpPEqfD8Uki48qwAUZNToRaZtBvaVETXHtMPC7L-D0wRsPJ4b7hawa9VEM~iN4dGiTMvHCS~76mtgKVMVh78bhSfb~Ld8Cw7mt8d~IQEFHpcnrxe~xh7aLabrTWrPb84X~YCb4cC7W9iPv~X2Vgw__" alt="Rotated Image"
+        class="rotate-image">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button class="button1">Login</button>
+    <form>
+        <h1 class="heading2">Contact US</h1>
+        <input class="form-item1" type="text" id="name" placeholder="Name">
+        <input class="form-item1" type="email" id="email" placeholder="Email">
+        <input class="form-item2" type="tel" placeholder="Mobile Number">
+        <input class="form-item2" type="text" id="name" placeholder="City">
+        <input type="button" Class="button2" value="Submit form">
+    </form>
+
+    <table>
+        <tr>
+            <th class="col1">S.No</th>
+            <th>Startup Name</th>
+            <th>Startup Description</th>
+        </tr>
+        <tbody>
+        <tr>
+            <td class="col1">1</td>
+            <td>Wow India</td>
+            <td>A startup with WOW Ideas.</td>
+        </tr>
+        <tr>
+            <td class="col1">2</td>
+            <td>Loreum Ipsum</td>
+            <td>Loreum Ipsum Text</td>
+        </tr>
+        <tr>
+            <td class="col1">2</td>
+            <td>Loreum Ipsum</td>
+            <td>Loreum Ipsum Text</td>
+        </tr>
+        <tr>
+            <td class="col1">2</td>
+            <td>Loreum Ipsum</td>
+            <td>Loreum Ipsum Text</td>
+        </tr>
+        <tr>
+            <td class="col1">2</td>
+            <td>Loreum Ipsum</td>
+            <td>Loreum Ipsum Text</td>
+        </tr>
+        <tr>
+            <td class="col1">2</td>
+            <td>Loreum Ipsum</td>
+            <td>Loreum Ipsum Text</td>
+        </tr>
+    </tbody>
+        <tfoot>
+            <tr>
+                <td id="footer" class="col1">00.</td>
+                <td id="footer">Final Footer</td>
+                <td>Loreum Ipsum Text</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
